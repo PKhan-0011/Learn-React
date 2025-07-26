@@ -50,8 +50,6 @@ Made with ❤️ by Parvej Khan
 
 ---
 
-### 📌 Kaise Paste Karoge README.md?
-
 #### Option 1: VS Code se
 
 1. Open `ReactAgainByHitesh` folder in VS Code
