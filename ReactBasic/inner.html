@@ -6,8 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-     <div>
-           
+     <div id="root">
+          
      </div>
 
      <script>
@@ -28,7 +28,8 @@
                 return button;
           }
 
-          buttonComponent(count);
+           const root = document.getElementById("root");
+            root.appendChild(buttonComponent(state.count));
 
      </script>
 </body>
