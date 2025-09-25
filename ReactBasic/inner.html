@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div>
+           
+     </div>
+
+     <script>
+          
+          let state = {
+               count:  0,
+          }
+
+            function increseButtonCount(){
+                state.count++;
+            }
+
+          function buttonComponent(count){
+
+                const button = document.createElement('button');        // yha s <button></button> ban jayega.
+                button.innerHTML = 'button ' + count;                   // <button>button + count</button>
+                button.setAttribute("onClick", `increseButtonCount()`)  //  <button onClick = {increseButtonCount()}>button + count</button>
+                return button;
+          }
+
+     </script>
+</body>
+</html>
