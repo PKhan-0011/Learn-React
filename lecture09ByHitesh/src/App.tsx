@@ -25,6 +25,4 @@ function App() {
 
 export default App;
 
-// Yha pe mughe actually ek chiz ka dhyan rakhna chaiye tha like ki style Bckground 
-// usme change karung ato fi rpura 
-// ui change hoga okkh!..;
+// dekh yha p actaully hame karne ye hai like ki 2-3 chize hai styling karni hai pure page ki style s hi!.. okkh
